@@ -1,0 +1,17 @@
+
+node
+{
+  stage('checkout')
+  {
+    echo 'checking the source code...'
+    
+  }
+  stage('Static code analysis')
+  {
+    echo 'sonarQube Started Analysis of the code..'
+  }
+  stage('Unit test cases')
+  {
+    echo 'unit test cases...'
+  }
+}
