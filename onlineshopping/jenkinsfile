@@ -18,4 +18,9 @@ node
   {
     echo 'Code Deploying.....'
   }
+  stage('Code operations')
+  {
+    echo 'Code Operaations.....'
+  }
+  
 }
